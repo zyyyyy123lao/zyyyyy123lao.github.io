@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Yi Zhang / Site Title"
 title_separator          : "-"
 name                     : &name "Yi Zhang"
-description              : &description "personal description"
+description              : &description "Undergraduate at Southwest University (2023–2027). Interested in MLLM and AI Agent."
 url                      : https://zyyyyy123lao.github.io
 baseurl                  : ""
 repository               : "zyyyyy123lao/zyyyyy123lao.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Yi Zhang"
   pronouns         : # example: "she/her"  
-  bio              : "本科生 · Southwest University (西南大学)"
+  bio              : "Undergraduate at Southwest University (2023–2027). Interested in MLLM and AI Agent."
   location         : "Chongqing, China"
   employer         : "Southwest University"
   uri              : # URL

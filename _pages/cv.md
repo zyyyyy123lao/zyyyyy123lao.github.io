@@ -11,7 +11,12 @@ redirect_from:
 
 Education
 ======
-* 本科 (Undergraduate), Southwest University (西南大学)
+* Undergraduate, Southwest University, 2023–2027
+
+Interests
+======
+* MLLM (Multimodal Large Language Models)
+* AI Agent
 
 Work experience
 ======

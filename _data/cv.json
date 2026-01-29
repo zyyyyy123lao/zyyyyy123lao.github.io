@@ -4,7 +4,7 @@
     "email": "zyyyyy123@email.swu.edu.cn",
     "phone": "",
     "website": "https://zyyyyy123lao.github.io",
-    "summary": "本科生 at Southwest University (西南大学).",
+    "summary": "I am an undergraduate at Southwest University (2023–2027). My research interests are MLLM (Multimodal Large Language Models) and AI Agent. I am interested in vision-language models and agentic AI systems.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -33,18 +33,21 @@
   "work": [],
   "education": [
     {
-      "institution": "Southwest University (西南大学)",
-      "area": "本科 (Undergraduate)",
+      "institution": "Southwest University",
+      "area": "Undergraduate",
       "studyType": "Bachelor",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2023",
+      "endDate": "2027",
       "gpa": null,
       "courses": []
     }
   ],
   "skills": [],
   "languages": [],
-  "interests": [],
+  "interests": [
+    { "name": "MLLM", "keywords": ["Multimodal Large Language Models", "Vision-Language"] },
+    { "name": "AI Agent", "keywords": ["Agentic AI", "Autonomous Systems"] }
+  ],
   "references": [],
   "publications": [
     {
