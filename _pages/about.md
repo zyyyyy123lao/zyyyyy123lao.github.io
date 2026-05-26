@@ -79,13 +79,13 @@ Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) or explore
 
 <span id="service" class="home-anchor"></span>
 
-## Service
+## 🤝 Service
 
 - Reviewer, AAAI 2026
 - Reviewer, TMLR
 
 <span id="educations" class="home-anchor"></span>
 
-## Educations
+## 📖 Educations
 
 - B.S. student, Southwest University, 2023-2027
