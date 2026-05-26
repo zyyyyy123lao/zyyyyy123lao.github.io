@@ -32,11 +32,9 @@ redirect_from:
 <span id="homepage" class="home-anchor"></span>
 <span id="about-me" class="home-anchor"></span>
 
-Hi, I am **Yi Zhang**, an undergraduate student at [Southwest University](https://en.swu.edu.cn/) (2023-2027), in Chongqing, China.
+Hi, I am Yi Zhang, an undergraduate student at [Southwest University](https://en.swu.edu.cn/), majoring in Software Engineering.
 
-My research interests focus on **World Models**, **MLLM** (Multimodal Large Language Models), and **AI Agent**. I am interested in how multimodal models, world models, and agentic systems can be built and applied to real-world tasks.
-
-Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) or explore my publications for more.
+My research interests focus on **World Models**, **MLLM**, and **AI Agent**. I am interested in building physically grounded world models. Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) for collaboration.
 
 <span id="news" class="home-anchor"></span>
 
@@ -50,12 +48,6 @@ Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) or explore
 <span id="publications" class="home-anchor"></span>
 
 ## 📝 Publications
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
 
 {% if site.publication_category %}
   {% for category in site.publication_category %}
