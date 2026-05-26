@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div id="homepage"></div>
-<section id="about-me" class="home-section">
+<section id="about-me" class="home-section" markdown="1">
 
 Hi, I am **Yi Zhang**, an undergraduate student at [Southwest University](https://en.swu.edu.cn/) (2023-2027), in Chongqing, China.
 
@@ -27,10 +27,9 @@ Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) or explore
     scroll-margin-top: 5rem;
   }
 
-  .home-news-title {
-    display: inline-block;
-    border-bottom: 2px solid #f0d800;
-    margin-bottom: 0.25em;
+  .home-section h2 {
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 0.45em;
   }
 
   .home-news-list .highlight {
@@ -38,9 +37,9 @@ Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) or explore
   }
 </style>
 
-<section id="news" class="home-section">
+<section id="news" class="home-section" markdown="1">
 
-## <span class="home-news-title">News</span>
+## 🔥 News
 
 <ul class="home-news-list">
   <li>[2026/05] Our paper <span class="highlight">Code2Worlds</span> has been accepted to ICML 2026!</li>
@@ -49,9 +48,9 @@ Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) or explore
 
 </section>
 
-<section id="publications" class="home-section">
+<section id="publications" class="home-section" markdown="1">
 
-## Publications
+## 📝 Publications
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
@@ -81,7 +80,7 @@ Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) or explore
 
 </section>
 
-<section id="service" class="home-section">
+<section id="service" class="home-section" markdown="1">
 
 ## Service
 
@@ -90,7 +89,7 @@ Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) or explore
 
 </section>
 
-<section id="educations" class="home-section">
+<section id="educations" class="home-section" markdown="1">
 
 ## Educations
 
