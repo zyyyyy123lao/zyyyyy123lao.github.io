@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yi Zhang"
+title:
 author_profile: true
 redirect_from:
   - /about/
@@ -32,7 +32,7 @@ redirect_from:
 <span id="homepage" class="home-anchor"></span>
 <span id="about-me" class="home-anchor"></span>
 
-Hi, I am Yi Zhang, an undergraduate student at [Southwest University](https://en.swu.edu.cn/), majoring in Software Engineering.
+Hi, I am Yi Zhang, an undergraduate student at Southwest University, majoring in Software Engineering.
 
 My research interests focus on **World Models**, **MLLM**, and **AI Agent**. I am interested in building physically grounded world models. Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) for collaboration.
 
