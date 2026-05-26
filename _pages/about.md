@@ -41,8 +41,8 @@ My research interests focus on **World Models**, **MLLM**, and **AI Agent**. I a
 ## 🔥 News
 
 <ul class="home-news-list">
-  <li>[2026/05] Our paper <span class="highlight">Code2Worlds</span> has been accepted to ICML 2026!</li>
-  <li>[2026/04] Our paper <span class="highlight">PETR</span> has been accepted to ICMR 2026!</li>
+  <li>[2026/05] 🎉 Our paper <span class="highlight">Code2Worlds</span> has been accepted to ICML 2026!</li>
+  <li>[2026/04] 🎉 Our paper <span class="highlight">PETR</span> has been accepted to ICMR 2026!</li>
 </ul>
 
 <span id="publications" class="home-anchor"></span>
