@@ -81,11 +81,12 @@ Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) or explore
 
 </section>
 
-<section id="honors-and-awards" class="home-section">
+<section id="service" class="home-section">
 
-## Honors and Awards
+## Service
 
-- To be updated.
+- Reviewer, AAAI 2026
+- Reviewer, TMLR
 
 </section>
 
@@ -94,14 +95,5 @@ Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) or explore
 ## Educations
 
 - B.S. student, Southwest University, 2023-2027
-
-</section>
-
-<section id="service" class="home-section">
-
-## Service
-
-- Reviewer, AAAI 2026
-- Reviewer, TMLR
 
 </section>
