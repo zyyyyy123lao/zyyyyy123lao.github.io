@@ -38,46 +38,28 @@ My research interests focus on **World Models**, **MLLM**, and **AI Agent**. I a
 
 <span id="news" class="home-anchor"></span>
 
-## 🔥 News
+## &#128293; News
 
 <ul class="home-news-list">
-  <li>[2026/05] 🎉 Our paper <span class="highlight">Code2Worlds</span> has been accepted to ICML 2026!</li>
-  <li>[2026/04] 🎉 Our paper <span class="highlight">PETR</span> has been accepted to ICMR 2026!</li>
+  <li>[2026/05] &#127881; Our paper <span class="highlight">Code2Worlds</span> has been accepted to ICML 2026!</li>
+  <li>[2026/04] &#127881; Our paper <span class="highlight">PETR</span> has been accepted to ICMR 2026!</li>
 </ul>
 
 <span id="publications" class="home-anchor"></span>
 
-## 📝 Publications
+## &#128221; Publications
 
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h3>{{ category[1].title }}</h3>
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+{% include publication-list.html %}
 
 <span id="service" class="home-anchor"></span>
 
-## 🤝 Service
+## &#129309; Service
 
 - Reviewer, AAAI 2026
 - Reviewer, TMLR
 
 <span id="educations" class="home-anchor"></span>
 
-## 📖 Educations
+## &#128214; Educations
 
 - B.S. student, Southwest University, 2023-2027

@@ -1,0 +1,72 @@
+{% include base_path %}
+
+{% assign teaser = post.header.teaser | default: post.teaser %}
+{% assign title_link = post.paperurl | default: post.projecturl | default: post.link | default: post.url %}
+
+<article class="publication-card{% if post.first_author %} publication-card--first-author{% endif %}">
+  {% if teaser %}
+    <div class="publication-card__image">
+      <img
+        src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | relative_url }}{% endif %}"
+        alt="{{ post.title | strip_html | escape }}">
+    </div>
+  {% endif %}
+
+  <div class="publication-card__body">
+    <h3 class="publication-card__title">
+      <a href="{% if title_link contains '://' %}{{ title_link }}{% else %}{{ title_link | relative_url }}{% endif %}">
+        {{ post.title }}
+      </a>
+    </h3>
+
+    {% if post.authors %}
+      <div class="publication-card__authors">{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+    {% endif %}
+
+    {% if post.links %}
+      <div class="publication-card__links">
+        {% for item in post.links %}
+          {% unless forloop.first %}<span>/</span>{% endunless %}
+          <a href="{{ item.url }}">{{ item.label }}</a>
+        {% endfor %}
+      </div>
+    {% elsif post.paperurl or post.projecturl or post.codeurl or post.bibtexurl or post.slidesurl %}
+      <div class="publication-card__links">
+        {% assign printed_link = false %}
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}">Paper</a>
+          {% assign printed_link = true %}
+        {% endif %}
+        {% if post.projecturl %}
+          {% if printed_link %}<span>/</span>{% endif %}
+          <a href="{{ post.projecturl }}">Project</a>
+          {% assign printed_link = true %}
+        {% endif %}
+        {% if post.codeurl %}
+          {% if printed_link %}<span>/</span>{% endif %}
+          <a href="{{ post.codeurl }}">Code</a>
+          {% assign printed_link = true %}
+        {% endif %}
+        {% if post.bibtexurl %}
+          {% if printed_link %}<span>/</span>{% endif %}
+          <a href="{{ post.bibtexurl }}">BibTeX</a>
+          {% assign printed_link = true %}
+        {% endif %}
+        {% if post.slidesurl %}
+          {% if printed_link %}<span>/</span>{% endif %}
+          <a href="{{ post.slidesurl }}">Slides</a>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    {% if post.venue %}
+      <div class="publication-card__venue"><em>{{ post.venue }}</em></div>
+    {% endif %}
+
+    {% if post.summary %}
+      <p class="publication-card__summary">{{ post.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    {% elsif post.excerpt %}
+      <p class="publication-card__summary">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    {% endif %}
+  </div>
+</article>
