@@ -7,27 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-<div id="homepage"></div>
-<section id="about-me" class="home-section" markdown="1">
-
-Hi, I am **Yi Zhang**, an undergraduate student at [Southwest University](https://en.swu.edu.cn/) (2023-2027), in Chongqing, China.
-
-My research interests focus on **World Models**, **MLLM** (Multimodal Large Language Models), and **AI Agent**. I am interested in how multimodal models, world models, and agentic systems can be built and applied to real-world tasks.
-
-Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) or explore my publications for more.
-
-</section>
-
 <style>
   html {
     scroll-behavior: smooth;
   }
 
-  .home-section {
-    scroll-margin-top: 5rem;
+  .home-anchor {
+    display: block;
+    position: relative;
+    top: -5rem;
+    visibility: hidden;
   }
 
-  .home-section h2 {
+  .page__content h2 {
     border-bottom: 1px solid #eeeeee;
     padding-bottom: 0.45em;
   }
@@ -37,7 +29,16 @@ Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) or explore
   }
 </style>
 
-<section id="news" class="home-section" markdown="1">
+<span id="homepage" class="home-anchor"></span>
+<span id="about-me" class="home-anchor"></span>
+
+Hi, I am **Yi Zhang**, an undergraduate student at [Southwest University](https://en.swu.edu.cn/) (2023-2027), in Chongqing, China.
+
+My research interests focus on **World Models**, **MLLM** (Multimodal Large Language Models), and **AI Agent**. I am interested in how multimodal models, world models, and agentic systems can be built and applied to real-world tasks.
+
+Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) or explore my publications for more.
+
+<span id="news" class="home-anchor"></span>
 
 ## 🔥 News
 
@@ -46,9 +47,7 @@ Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) or explore
   <li>[2026/04] Our paper <span class="highlight">PETR</span> has been accepted to ICMR 2026!</li>
 </ul>
 
-</section>
-
-<section id="publications" class="home-section" markdown="1">
+<span id="publications" class="home-anchor"></span>
 
 ## 📝 Publications
 
@@ -78,21 +77,15 @@ Feel free to reach out via [email](mailto:zyyyyy123@email.swu.edu.cn) or explore
   {% endfor %}
 {% endif %}
 
-</section>
-
-<section id="service" class="home-section" markdown="1">
+<span id="service" class="home-anchor"></span>
 
 ## Service
 
 - Reviewer, AAAI 2026
 - Reviewer, TMLR
 
-</section>
-
-<section id="educations" class="home-section" markdown="1">
+<span id="educations" class="home-anchor"></span>
 
 ## Educations
 
 - B.S. student, Southwest University, 2023-2027
-
-</section>
