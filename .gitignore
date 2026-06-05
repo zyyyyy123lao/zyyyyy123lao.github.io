@@ -19,3 +19,4 @@ vendor/
 # Ignore folders related to IDEs
 .vscode/
 AGENTS.md
+CLAUDE.md
