@@ -205,20 +205,20 @@
   text-decoration: underline;
 }
 
-.publication-card__authors,
-.publication-card__links,
-.publication-card__venue,
-.publication-card__summary {
+.page__content .publication-card__authors,
+.page__content .publication-card__links,
+.page__content .publication-card__venue,
+.page__content p.publication-card__summary {
   font-size: 0.78rem;
   margin-top: 0.35rem;
   line-height: 1.35;
 }
 
-.publication-card__summary {
+.page__content p.publication-card__summary {
   margin-bottom: 0;
 }
 
-.publication-note {
+.page__content p.publication-note {
   font-size: 0.68rem;
   margin: 0.25rem 0 0.8rem;
 }
