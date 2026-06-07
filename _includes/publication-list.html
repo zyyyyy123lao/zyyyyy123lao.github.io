@@ -1,12 +1,13 @@
 {% assign publication_count = site.publications | size %}
 
 {% if publication_count > 0 %}
+  <p class="publication-note"><em>* Equal contribution / &dagger; Corresponding authors</em></p>
   <div class="publication-list">
-    {% for post in site.publications reversed %}
+    {% assign sorted_publications = site.publications | sort: "publication_order" %}
+    {% for post in sorted_publications %}
       {% include publication-card.html %}
     {% endfor %}
   </div>
-  <p class="publication-note"><em>* Equal contribution / &dagger; Corresponding authors</em></p>
 {% else %}
   <p class="publication-empty">Publications will be updated soon.</p>
 {% endif %}

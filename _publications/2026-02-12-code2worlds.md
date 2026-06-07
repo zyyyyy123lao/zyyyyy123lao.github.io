@@ -3,6 +3,7 @@ title: "Code2Worlds: Empowering Coding LLMs for 4D World Generation"
 collection: publications
 permalink: /publication/2026-02-12-code2worlds
 date: 2026-02-12
+publication_order: 1
 authors: "<strong>Yi Zhang</strong>&#42;, Yunshuang Wang&#42;, Zeyu Zhang&#42;, Hao Tang&dagger;"
 header:
   teaser: code2worlds-teaser.png
@@ -17,5 +18,6 @@ links:
     url: "https://arxiv.org/abs/2602.11757"
   - label: "Code"
     url: "https://github.com/AIGeeksGroup/Code2Worlds"
+venue: "ICML 2026"
 summary: "Code2Worlds turns language prompts into physics-aware simulation code for 4D world generation."
 ---
