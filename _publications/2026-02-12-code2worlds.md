@@ -17,5 +17,5 @@ links:
     url: "https://arxiv.org/abs/2602.11757"
   - label: "Code"
     url: "https://github.com/AIGeeksGroup/Code2Worlds"
-summary: "Code2Worlds formulates 4D world generation as language-to-simulation code generation, combining retrieval-augmented object generation, hierarchical environmental orchestration, and physics-aware closed-loop refinement."
+summary: "Code2Worlds turns language prompts into physics-aware simulation code for 4D world generation."
 ---
