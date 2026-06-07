@@ -12,6 +12,10 @@ redirect_from:
     scroll-behavior: smooth;
   }
 
+  .page__content {
+    font-size: 0.92em;
+  }
+
   .home-anchor {
     display: block;
     position: relative;
@@ -21,6 +25,7 @@ redirect_from:
 
   .page__content h2 {
     border-bottom: 1px solid #eeeeee;
+    font-size: 1.15em;
     padding-bottom: 0.45em;
   }
 
