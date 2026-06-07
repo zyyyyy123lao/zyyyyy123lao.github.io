@@ -183,6 +183,10 @@
   object-fit: contain;
 }
 
+.publication-card__image-placeholder {
+  min-height: 120px;
+}
+
 .publication-card__title {
   margin: 0;
   border-bottom: 0;

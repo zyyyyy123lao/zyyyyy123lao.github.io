@@ -4,11 +4,15 @@
 {% assign title_link = post.paperurl | default: post.projecturl | default: post.link | default: post.url %}
 
 <article class="publication-card{% if post.first_author %} publication-card--first-author{% endif %}">
-  {% if teaser %}
+  {% if teaser or post.empty_teaser %}
     <div class="publication-card__image">
-      <img
-        src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | relative_url }}{% endif %}"
-        alt="{{ post.title | strip_html | escape }}">
+      {% if teaser %}
+        <img
+          src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | relative_url }}{% endif %}"
+          alt="{{ post.title | strip_html | escape }}">
+      {% else %}
+        <div class="publication-card__image-placeholder" aria-hidden="true"></div>
+      {% endif %}
     </div>
   {% endif %}
 
