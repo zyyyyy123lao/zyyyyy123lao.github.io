@@ -3,7 +3,7 @@ title: "Code2Worlds: Empowering Coding LLMs for 4D World Generation"
 collection: publications
 permalink: /publication/2026-02-12-code2worlds
 date: 2026-02-12
-authors: "<strong>Yi Zhang</strong>*, Yunshuang Wang*, Zeyu Zhang*, Hao Tang&dagger;"
+authors: "<strong>Yi Zhang</strong>&#42;, Yunshuang Wang&#42;, Zeyu Zhang&#42;, Hao Tang&dagger;"
 paperurl: "https://arxiv.org/abs/2602.11757"
 projecturl: "https://aigeeksgroup.github.io/Code2Worlds"
 codeurl: "https://github.com/AIGeeksGroup/Code2Worlds"
