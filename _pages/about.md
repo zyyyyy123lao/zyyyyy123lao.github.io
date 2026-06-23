@@ -60,8 +60,7 @@ My research interests focus on **World Models**, **MLLM**, and **AI Agent**. I a
 
 ## &#129309; Service
 
-- Reviewer, AAAI 2027
-- Reviewer, AAAI 2026
+- Reviewer, AAAI 2026, AAAI 2027
 - Reviewer, TMLR
 
 <span id="educations" class="home-anchor"></span>
