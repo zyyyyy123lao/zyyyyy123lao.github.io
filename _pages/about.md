@@ -76,7 +76,6 @@ Feel free to reach out via [email](mailto:zy2465453871@gmail.com) for collaborat
 ## &#128214; Education
 
 **Southwest University**, Chongqing, China<br>
-B.Eng. in Software Engineering · Sep. 2023 - Jun. 2027 (Expected)<br>
-Average: **88/100** · GPA: **4.00/5.00** · Rank: **5/117 (top 5%)**
+B.Eng. in Software Engineering · Sep. 2023 - Jun. 2027<br>
 
 <span id="awards" class="home-anchor"></span>
