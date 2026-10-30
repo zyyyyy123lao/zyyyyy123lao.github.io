@@ -37,11 +37,9 @@ redirect_from:
 <span id="homepage" class="home-anchor"></span>
 <span id="about-me" class="home-anchor"></span>
 
-Hi, I am **Yi Zhang**, an undergraduate student in Software Engineering at **Southwest University**, expecting to graduate in June 2027.
+Hi, I am **Yi Zhang**, an undergraduate student in Software Engineering at **Southwest University**, expecting to graduate in June 2027. My research interests span **LLM/MLLM**, **Video Generation**, and **World Models/WAMs**. 
 
-My research interests span **LLM/MLLM**, **Video Generation**, and **World Models/WAMs**. I am currently a Foundation Model Research Intern at **miHoYo** and a Research Intern at the **University of Science and Technology of China**, working with Prof. Xiaobo Xia. Previously, I worked with Asst. Prof. Hao Tang at **Peking University**.
-
-Feel free to reach out via [email](mailto:zy2465453871@gmail.com) for collaboration. [Download my CV]({{ '/files/cv.pdf' | relative_url }}) or [view the full CV]({{ '/cv/' | relative_url }}).
+Feel free to reach out via [email](mailto:zy2465453871@gmail.com) for collaboration. 
 
 <span id="news" class="home-anchor"></span>
 
