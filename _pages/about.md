@@ -39,9 +39,7 @@ redirect_from:
 <span id="homepage" class="home-anchor"></span>
 <span id="about-me" class="home-anchor"></span>
 
-Hi, I am **Yi Zhang**, an undergraduate student in Software Engineering at **Southwest University**. My research interests span **LLM/MLLM**, **Video Generation**, and **World Models/WAMs**.
-
-Outside of research, I'm a Soulslike game enthusiast.
+Hi, I am **Yi Zhang**, an undergraduate student in Software Engineering at **Southwest University**. My research interests span **LLM/MLLM**, **Video Generation**, and **World Models/WAMs**. Outside of research, I'm a Soulslike game enthusiast.
 
 Feel free to reach out via [email](mailto:zy2465453871@gmail.com) for collaboration. 
 
