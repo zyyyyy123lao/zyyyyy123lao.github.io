@@ -1,0 +1,17 @@
+<ul class="research-experience">
+  {% for experience in site.data.experience %}
+    <li class="research-experience__item">
+      <div class="research-experience__logo">
+        <img src="{{ experience.logo | relative_url }}" alt="{{ experience.organization | escape }} logo" width="96" height="96" loading="lazy">
+      </div>
+      <div class="research-experience__body">
+        <div class="research-experience__heading">
+          <h3><a href="{{ experience.website }}">{{ experience.organization }}</a></h3>
+          <span class="research-experience__dates">{{ experience.dates }}</span>
+        </div>
+        <p class="research-experience__role">{{ experience.role }}</p>
+        <p class="research-experience__summary">{{ experience.summary }}</p>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

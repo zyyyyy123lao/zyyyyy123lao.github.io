@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/experience.css' | relative_url }}">
+
 <style>
   html {
     scroll-behavior: smooth;
@@ -60,12 +62,7 @@ Feel free to reach out via [email](mailto:zy2465453871@gmail.com) for collaborat
 
 ## Research Experience
 
-- **miHoYo** · Foundation Model Research Intern · Sep. 2026 - Present<br>
-  Research on foundation models for game agents.
-- **University of Science and Technology of China** · Research Intern · Sep. 2026 - Present<br>
-  Research on world models and WAMs, working with Prof. Xiaobo Xia.
-- **Peking University** · Research Intern · Nov. 2025 - May 2026<br>
-  Research on code world models and MLLMs, working with Asst. Prof. Hao Tang.
+{% include research-experience.html %}
 
 <span id="service" class="home-anchor"></span>
 

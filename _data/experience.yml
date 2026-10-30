@@ -1,0 +1,23 @@
+- organization: miHoYo
+  role: Foundation Model Research Intern
+  dates: Sep. 2026 - Present
+  summary: Research on foundation models for game agents.
+  logo: /images/affiliations/mihoyo.png
+  website: https://www.mihoyo.com/
+  logo_source: https://www.mihoyo.com/_nuxt/img/mihoyo-logo.fc3399a.png
+
+- organization: University of Science and Technology of China
+  role: Research Intern
+  dates: Sep. 2026 - Present
+  summary: Research on world models and WAMs, working with Prof. Xiaobo Xia.
+  logo: /images/affiliations/ustc.jpg
+  website: https://www.ustc.edu.cn/
+  logo_source: https://djyszw.ustc.edu.cn/info/1070/6835.htm
+
+- organization: Peking University
+  role: Research Intern
+  dates: Nov. 2025 - May 2026
+  summary: Research on code world models and MLLMs, working with Asst. Prof. Hao Tang.
+  logo: /images/affiliations/pku.svg
+  website: https://www.pku.edu.cn/
+  logo_source: https://commons.wikimedia.org/wiki/File:Peking_University_seal.svg
