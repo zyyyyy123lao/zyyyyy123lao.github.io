@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Homepage"
+title                    : "Yi Zhang's Homepage"
 title_separator          : "-"
 name                     : &name "Yi Zhang"
 description              : &description "Software Engineering undergraduate at Southwest University. Research in LLM/MLLM, video generation, and world models/WAMs."
