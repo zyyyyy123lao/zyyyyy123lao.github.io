@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Yi Zhang"
-description              : &description "Undergraduate at Southwest University (2023–2027). Interested in MLLM and AI Agent."
+description              : &description "Software Engineering undergraduate at Southwest University. Research in LLM/MLLM, video generation, and world models/WAMs."
 url                      : https://zyyyyy123lao.github.io
 baseurl                  : ""
 repository               : "zyyyyy123lao/zyyyyy123lao.github.io"
@@ -29,7 +29,7 @@ author:
   location         : "Chongqing, China"
   employer         : "Southwest University"
   uri              : # URL
-  email            : "zyyyyy123@email.swu.edu.cn" 
+  email            : "zy2465453871@gmail.com"
 
   # Academic websites
   academia         : # URL

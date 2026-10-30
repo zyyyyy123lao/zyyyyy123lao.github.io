@@ -17,8 +17,14 @@ main:
   - title: "Publications"
     url: /#publications
 
+  - title: "Experience"
+    url: /#experience
+
   - title: "Service"
     url: /#service
 
-  - title: "Educations"
+  - title: "Education"
     url: /#educations
+
+  - title: "CV"
+    url: /cv/

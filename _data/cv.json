@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Yi Zhang",
-    "email": "zyyyyy123@email.swu.edu.cn",
+    "email": "zy2465453871@gmail.com",
     "phone": "",
     "website": "https://zyyyyy123lao.github.io",
-    "summary": "I am an undergraduate at Southwest University (2023–2027). My research interests are MLLM (Multimodal Large Language Models) and AI Agent. I am interested in vision-language models and agentic AI systems.",
+    "summary": "Software Engineering undergraduate at Southwest University. Research interests: LLM/MLLM, Video Generation, World Models/WAMs.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -14,124 +14,121 @@
     },
     "profiles": [
       {
+        "network": "GitHub",
+        "username": "zyyyyy123lao",
+        "url": "https://github.com/zyyyyy123lao"
+      },
+      {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "url": "https://scholar.google.com/citations?user=bnLsGp4AAAAJ"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "miHoYo",
+      "position": "Foundation Model Research Intern",
+      "startDate": "2026-09",
+      "endDate": "",
+      "summary": "Foundation models for game agents."
+    },
+    {
+      "company": "University of Science and Technology of China",
+      "position": "Research Intern",
+      "startDate": "2026-09",
+      "endDate": "",
+      "summary": "World models and WAMs, working with Prof. Xiaobo Xia."
+    },
+    {
+      "company": "Peking University",
+      "position": "Research Intern",
+      "startDate": "2025-11",
+      "endDate": "2026-05",
+      "summary": "Code world models and MLLMs, working with Asst. Prof. Hao Tang."
+    }
+  ],
   "education": [
     {
       "institution": "Southwest University",
-      "area": "Undergraduate",
-      "studyType": "Bachelor",
-      "startDate": "2023",
-      "endDate": "2027",
-      "gpa": null,
-      "courses": []
+      "area": "Software Engineering",
+      "studyType": "B.Eng.",
+      "startDate": "2023-09",
+      "endDate": "2027-06",
+      "gpa": "4.00/5.00",
+      "courses": [],
+      "summary": "Expected graduation June 2027. Average: 88/100; rank: 5/117 (top 5%)."
     }
   ],
-  "skills": [],
-  "languages": [],
+  "skills": [
+    {
+      "name": "Technical Skills",
+      "keywords": [
+        "Python",
+        "C/C++",
+        "Git",
+        "LaTeX/Overleaf",
+        "Docker",
+        "Linux",
+        "PyTorch"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Mandarin",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "CET-6"
+    }
+  ],
   "interests": [
-    { "name": "MLLM", "keywords": ["Multimodal Large Language Models", "Vision-Language"] },
-    { "name": "AI Agent", "keywords": ["Agentic AI", "Autonomous Systems"] }
+    {
+      "name": "LLM/MLLM"
+    },
+    {
+      "name": "Video Generation"
+    },
+    {
+      "name": "World Models/WAMs"
+    }
   ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Code2Worlds: Empowering Coding LLMs for 4D World Generation",
+      "publisher": "ICML 2026",
+      "website": "https://arxiv.org/abs/2602.11757"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Text Recovery Attacks and Defenses on Physical Envelopes",
+      "publisher": "ACM ICMR 2026",
+      "website": "https://dl.acm.org/doi/full/10.1145/3805622.3810850"
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Code2Worlds-2: Physically Plausible Agent Harness for Embodied World Simulation",
+      "publisher": "arXiv",
+      "website": "https://arxiv.org/abs/2610.17651"
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "PWM: Personalized World Models with Online Reinforcement Learning",
+      "publisher": "arXiv",
+      "website": "https://arxiv.org/abs/2610.04920"
     }
   ],
-  "presentations": [
+  "presentations": [],
+  "teaching": [],
+  "portfolio": [],
+  "awards": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "title": "Third Prize, Lan Qiao Cup Programming Competition",
+      "date": "2026"
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "title": "Third-Class Academic Scholarship, Southwest University",
+      "date": "2025"
     }
   ]
 }
